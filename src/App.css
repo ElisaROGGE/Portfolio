@@ -1,0 +1,26 @@
+.App{
+  background: linear-gradient(140deg, #efd5ff 0%, #515ada 100%);
+}
+  .balise{
+    font-family: 'La Belle Aurore', cursive;
+  } 
+  .home-page{
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+  }
+  .home-page .balise {
+    animation: fadeIn 1s 1.7 backwards;
+    opacity: 0.6;
+  }
+  .home-page h2{
+    animation: fadeIn 1s 1.8s backwards;
+  }
+  .contact-home{
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
