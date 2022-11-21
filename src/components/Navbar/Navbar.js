@@ -7,8 +7,8 @@ import logo from '../../assets/img/logo.png'
 
 export default function Navbar() {
   return (
-    <section className=''>
-        <nav className='bg-purple h-16 w-full fixed top-0 z-3 min-h-500 border-r-2 border-b-white border-r-solid shadow'>
+    <section>
+        <nav className='bg-purple h-16 w-full fixed top-0 z-10 min-h-500 border-r-2 border-b-white border-r-solid shadow'>
         <ul className='flex justify-around h-full'>
           <li>
             <Link to='/'>
