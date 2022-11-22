@@ -1,6 +1,6 @@
-.App{
-  background: linear-gradient(140deg, #efd5ff 0%, #515ada 100%);
-}
+/* .App{
+  background: linear-gradient(140deg, #ffffff 0%, #656565 100%);
+} */
   .balise{
     font-family: 'La Belle Aurore', cursive;
   } 
@@ -24,6 +24,10 @@
     visibility: visible;
   }
 
+  .image-card{
+    -webkit-box-shadow: 5px 5px 20px -1px #000000; 
+    box-shadow: 5px 5px 20px -1px #000000;
+  }
     @keyframes fadeIn {
       0% { opacity: 0; }
       100% { opacity: 1; }
