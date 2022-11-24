@@ -24,25 +24,25 @@ export default function Contact() {
     <>
     <Navbar />
     <div className='h-full w-full bg-gradient-to-br from-white to-gray-300'>
-    <section class="z-10 overflow-hidden py-20 lg:py-[120px]">
-    <div class="container mx-auto">
-    <div class="-mx-4 flex flex-wrap lg:justify-between">
-      <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
-        <div class="mb-12 max-w-[570px] lg:mb-0">
-          <span class="text-primary mb-4 block text-base font-semibold">
+    <section className="z-10 overflow-hidden py-20 lg:py-[120px]">
+    <div className="container mx-auto">
+    <div className="-mx-4 flex flex-wrap lg:justify-between">
+      <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
+        <div className="mb-12 max-w-[570px] lg:mb-0">
+          <span className="text-primary mb-4 block text-base font-semibold">
             Contact
           </span>
           <h2
-            class="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
+            className="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
           >
             PRENEZ CONTACT AVEC MOI
           </h2>
-          <p class="text-body-color mb-9 text-base leading-relaxed">
+          <p className="text-body-color mb-9 text-base leading-relaxed">
             Une question ? N'hésitez pas à remplir ce formulaire de contact ou de me contacter directement par téléphone ou par e-mail.
           </p>
-          <div class="mb-8 flex w-full max-w-[370px]">
+          <div className="mb-8 flex w-full max-w-[370px]">
             <div
-              class="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+              className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
             >
               <svg
                 width="24"
@@ -61,14 +61,14 @@ export default function Contact() {
                 />
               </svg>
             </div>
-            <div class="w-full">
-              <h4 class="text-dark mb-1 text-xl font-bold">Numéro de téléphone</h4>
-              <p class="text-body-color text-base">06.59.45.48.57</p>
+            <div className="w-full">
+              <h4 className="text-dark mb-1 text-xl font-bold">Numéro de téléphone</h4>
+              <p className="text-body-color text-base">06.59.45.48.57</p>
             </div>
           </div>
-          <div class="mb-8 flex w-full max-w-[370px]">
+          <div className="mb-8 flex w-full max-w-[370px]">
             <div
-              class="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+              className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
             >
               <svg
                 width="28"
@@ -81,51 +81,51 @@ export default function Contact() {
                 />
               </svg>
             </div>
-            <div class="w-full">
-              <h4 class="text-dark mb-1 text-xl font-bold">Adresse Email</h4>
-              <p class="text-body-color text-base">elisa.rogge59@gmail.com</p>
+            <div className="w-full">
+              <h4 className="text-dark mb-1 text-xl font-bold">Adresse Email</h4>
+              <p className="text-body-color text-base">elisa.rogge59@gmail.com</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
-        <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
+      <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+        <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
           <form ref={refForm} onSubmit={sendEmail}>
-            <div class="mb-6">
+            <div className="mb-6">
               <input
                 type="text"
                 name='name'
                 placeholder="Votre Nom"
-                class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border-solid border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border-solid border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
-            <div class="mb-6">
+            <div className="mb-6">
               <input
                 type="email"
                 name='email'
                 placeholder="Votre Adresse Email"
-                class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border border-solid py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border border-solid py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
-            <div class="mb-6">
+            <div className="mb-6">
               <input
                 type="text"
                 placeholder="Votre Numéro de Téléphone"
-                class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border border-solid py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border border-solid py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
-            <div class="mb-6">
+            <div className="mb-6">
               <textarea
               name='message'
                 rows="6"
                 placeholder="Votre Message"
-                class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border border-solid py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border border-solid py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
             <div>
               <button
                 type="submit"
-                class="bg-primary border-primary w-full rounded border p-3 text-white transition hover:bg-opacity-80 bg-black"
+                className="bg-primary border-primary w-full rounded border p-3 text-white transition hover:bg-opacity-80 bg-black"
               >
                 Envoyer le message
               </button>

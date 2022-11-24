@@ -10,7 +10,7 @@ import mongodb from '../../assets/img/mongodb.png'
 
 export default function Card() {
   return (
-    <><div className='text-center ml-10 grid xl:grid-cols-4 xl:grid-rows-2 w-full gap-y-10 xs:grid-cols-1 xs:grid-rows-1 md:grid-rows-2 md:grid-cols-2'>
+    <><div className='text-center ml-10 grid xl:grid-cols-4 xl:grid-rows-2 w-full gap-y-10 xs:flex xs:flex-col xs:items-center xs:ml-0 md:grid-rows-2 md:grid-cols-2'>
           <div className="container-card bg-transparent cursor-pointer group perspective w-full h-40  mr-8 max-w-sm xs:w-2/4 md:w-3/4  border border-gray-200  rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-700'>
               <div className=' absolute backface-hidden w-full h-full'>
