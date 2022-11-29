@@ -17,10 +17,10 @@ export default function App() {
         slidesPerView={"auto"}
         centeredSlides={true}
         spaceBetween={30}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
           dynamicBullets: true,
@@ -41,7 +41,7 @@ export default function App() {
           <a href="https://github.com/ElisaROGGE/Paradise" target="_blank" rel="noreferrer" >
             <figure className="h-60 shadow-2xl rounded-lg transition hover:scale-110  ">
               <img src={paradise} className='w-full h-full' alt="paradise"/>
-              <figcaption className="w-full">AlloMovie</figcaption>
+              <figcaption className="w-full">Paradise</figcaption>
             </figure>
           </a>
         </SwiperSlide>

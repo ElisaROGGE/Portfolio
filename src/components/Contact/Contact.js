@@ -23,8 +23,8 @@ export default function Contact() {
   return (
     <>
     <Navbar />
-    <div className='h-full w-full bg-gradient-to-br from-white to-gray-300'>
-    <section className="z-10 overflow-hidden py-20 lg:py-[120px]">
+    <div className='h-screen w-full bg-gradient-to-br from-white to-gray-300'>
+    <section className="z-10 overflow-hidden py-20 lg:py-[120px] h-full">
     <div className="container mx-auto">
     <div className="-mx-4 flex flex-wrap lg:justify-between">
       <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
