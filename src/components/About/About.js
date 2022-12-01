@@ -21,6 +21,7 @@ export default function About() {
       </div>
       <div className=''>
         <h2 className='text-center text-4xl mb-0 text-dark text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px]'>Mes réalisations</h2>
+        <h3 className='text-center text-2xl mt-5'>Durant mon expérience professionnelle, j'ai pu réaliser de nombreux sites, vitrine ou e-commerce.</h3>
         <Slider />
       </div>
     </div>

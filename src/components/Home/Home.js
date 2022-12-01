@@ -18,7 +18,7 @@ export default function Home() {
                 <h2 className='text-gray-800 text-2xl tracking-wider mb-16 xs:mb-5 xs:text-center'>Développeuse web Full-Stack</h2>
                 </div>
                 <div className="logo flex w-1/2 xs:w-full justify-end items-center xs:justify-center">
-                  <img className='w-96 xs:relative xs:w-64' src={elisa} alt='elisa-rogge'></img>
+                  <img className='w-96 xs:relative xs:w-64 saturate-200' src={elisa} alt='elisa-rogge'></img>
                 </div>
               </div>
               <div className='flex xs:justify-center xs:mt-5'>
