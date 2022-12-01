@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import Navbar from '../Navbar/Navbar'
 import emailjs from '@emailjs/browser'
+import {AiOutlineLinkedin, AiFillGithub} from 'react-icons/ai'
 
 export default function Contact() {
     const refForm = useRef()
@@ -84,6 +85,28 @@ export default function Contact() {
             <div className="w-full">
               <h4 className="text-dark mb-1 text-xl font-bold">Adresse Email</h4>
               <p className="text-body-color text-base">elisa.rogge59@gmail.com</p>
+            </div>
+          </div>
+          <div className="mb-8 flex w-full max-w-[370px]">
+            <div
+              className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+            >
+              <AiFillGithub className='text-3xl'/>
+            </div>
+            <div className="w-full">
+              <h4 className="text-dark mb-1 text-xl font-bold">Github</h4>
+              <a href='https://github.com/ElisaROGGE' target="_blank" className="text-body-color text-base hover:underline" rel="noreferrer">Découvrir mon Github</a>
+            </div>
+          </div>
+          <div className="mb-8 flex w-full max-w-[370px]">
+            <div
+              className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+            >
+              <AiOutlineLinkedin className='text-3xl' />
+            </div>
+            <div className="w-full">
+              <h4 className="text-dark mb-1 text-xl font-bold">Linkedin</h4>
+              <a href='https://www.linkedin.com/in/elisa-rogge-216b77159/' target="_blank" className="text-body-color text-base hover:underline" rel="noreferrer">Découvrir mon Linkedin</a>
             </div>
           </div>
         </div>
