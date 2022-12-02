@@ -10,7 +10,7 @@ export default function Home() {
     <>
     <Navbar />
       <main className='w-full h-full'>
-          <div className='home-page w-full h-screen my-0 px-10 z-10 top-1/4 pt-32 bg-gradient-to-br from-white to-gray-300'>
+          <div className='home-page w-full h-screen my-0 px-10 z-10 top-1/4 pt-32 '>
             <div className="text-zone left-20 w-11/12">
               <div className='flex w-full xs:flex-col'>
                 <div className='w-1/2 xs:w-full'>

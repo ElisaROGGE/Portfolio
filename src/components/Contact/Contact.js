@@ -24,7 +24,7 @@ export default function Contact() {
   return (
     <>
     <Navbar />
-    <div className='h-screen w-full bg-gradient-to-br from-white to-gray-300'>
+    <div className='h-screen w-full'>
     <section className="z-10 overflow-hidden py-20 lg:py-[120px] h-full">
     <div className="container mx-auto">
     <div className="-mx-4 flex flex-wrap lg:justify-between">

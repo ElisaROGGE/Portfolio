@@ -8,7 +8,7 @@ import logo from '../../assets/img/logo.png'
 export default function Navbar() {
   return (
     <section>
-        <nav className='bg-black h-16 w-full fixed top-0 z-10 min-h-500 border-r-2 border-b-white border-r-solid shadow'>
+        <nav className='bg- h-16 w-full fixed top-0 z-10 min-h-500 border-r-2 border-b-white border-r-solid shadow'>
         <ul className='flex justify-around h-full'>
           <li>
             <Link to='/'>
@@ -19,17 +19,17 @@ export default function Navbar() {
             <div className='nav-links flex items-center text-center w-full h-full top-3'>
               <li>
                  <NavLink exact="true" activeclassname="active" to="/">
-                  <AiFillHome className='text-3xl mx-5 relative transition hover:scale-125 hover:text-white active:text-white text-gray-500'/>
+                  <AiFillHome className='text-3xl mx-5 relative transition hover:scale-125 hover:text-white active:text-white text-black'/>
                 </NavLink>
               </li>
               <li>
                 <NavLink exact="true" activeclassname="active" to="/about">
-                  <FaUserAlt className='text-3xl mx-5 relative transition hover:scale-125 hover:text-white text-gray-500'/>
+                  <FaUserAlt className='text-3xl mx-5 relative transition hover:scale-125 hover:text-white text-black'/>
                 </NavLink>
               </li>
             <li>
               <NavLink exact="true" className="active transition hover:scale-125" to="/contact">
-                <BsFillEnvelopeFill className='text-3xl mx-5 relative transition hover:scale-125 hover:text-white text-gray-500'/>
+                <BsFillEnvelopeFill className='text-3xl mx-5 relative transition hover:scale-125 hover:text-white text-black'/>
               </NavLink>
             </li>
           </div>
@@ -37,10 +37,10 @@ export default function Navbar() {
           <li>
           <div className='w-full h-full flex items-center'>
               <a className='text-2xl mr-5' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/elisa-rogge-216b77159/">
-                <AiFillLinkedin className='hover:text-white text-gray-500'/>
+                <AiFillLinkedin className='hover:text-white text-black'/>
               </a>
               <a className='text-2xl' target="_blank" rel="noreferrer" href="https://github.com/ElisaROGGE">
-                <AiFillGithub className='hover:text-white text-gray-500'/>
+                <AiFillGithub className='hover:text-white text-black'/>
               </a>
           </div>
             </li>
